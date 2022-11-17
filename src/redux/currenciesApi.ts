@@ -11,7 +11,7 @@ type Result = {
 type Response = Pick<Result, "rates">;
 
 const { REACT_APP_API_KEY, REACT_APP_API_URL } = process.env;
-const currenciesList = "EUR,GBP,JPY,UAH,USD,CAD,PLN";
+const currenciesList = "EUR,RUB,USD";
 
 export const currenciesApi = createApi({
   reducerPath: "currenciesApi",

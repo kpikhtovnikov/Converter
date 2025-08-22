@@ -1,3 +1,3 @@
 # Converter app
 
-SPA для конвертирования валют
+SPA (Single Page Application) для конвертирования валют
